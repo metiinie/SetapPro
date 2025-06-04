@@ -34,6 +34,11 @@ public class Book {
             loans.add(loan);
         }
     }
+     public void addLoans(Loan loan) {
+        if (loan != null && !loans.contains(loan)) {
+            loans.add(loan);
+        }
+    }
 
     public boolean isAvailable() {
         for (Loan loan : loans) {
@@ -43,8 +48,16 @@ public class Book {
         }
         return true;
     }
+     public boolean isAvailables() {
+        for (Loan loan : loans) {
+            if (loan.isActive()) {
+                return false;
+            }
+        }
+        return true;
+    }
 
-    public Vector<Author> getAuthors() {
+    public Vectors<Author> getAuthors() {
         return authors;
     }
 
