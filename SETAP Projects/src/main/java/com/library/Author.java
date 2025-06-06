@@ -36,4 +36,9 @@ public class Author {
     public Vector<Book> getBooks() {
         return myBooks;
     }
+
+    @Override
+    public String toString() {
+        return "Author: " + name + ", Books: " + myBooks.size();
+    }
 }
