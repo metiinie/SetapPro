@@ -4,6 +4,6 @@ Group Members
 2. Mubarek Amakil    .......     1501483
 3. Etsubdink Arega         .......     1501106
 4. Ruhama Kassahun   .......     1501589
-
+5. Fuad Abdellah.    .......     1501158
 
 
